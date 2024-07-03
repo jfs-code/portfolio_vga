@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
+
+:root {
+    --font-family: 'Segoe UI', sans-serif;
+    --nav-background-fondo: rgb(81, 88, 81); 
+} */
+
+@import './components/Global.css';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    /*background: url('path/to/your/background-image.jpg') no-repeat center center fixed;  Imagen de fondo */
+     /*background-size: cover; Asegura que la imagen cubra toda la pantalla */
+    background-color: var(--dark-Green);
+    font-family: var(--font-family);
 }

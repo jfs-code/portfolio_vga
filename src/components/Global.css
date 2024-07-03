@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
+
+:root {
+    --font-family: 'Segoe UI', sans-serif;
+    --pink: rgb(241, 202, 195);
+    --salmon: rgb(202, 147, 144);
+    --light-gray: rgb(242, 242, 242);
+    --leather: rgb(228, 205, 174);
+    --light-Green: rgb(198, 194, 169);
+    --dark-Green: rgb(81, 88, 81);  
+
+    --nav-background: rgba(255, 255, 255,.06);
+    --nav-border-color: var(--light-gray);
+    --nav-hover-color: var(--light-gray);
+    --nav-active-color: rgba(81, 88, 81, 1);
+    --nav-toggle-width: 2.5rem;
+    --nav-toggle-height: 0.2rem;
+    --nav-toggle-margin: 0.4rem;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}

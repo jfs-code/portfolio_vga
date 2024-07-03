@@ -1,0 +1,56 @@
+@import './../../Global.css';
+
+.image-carousel {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+  }
+  
+  .image-carousel::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .image-carousel::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color);
+  }
+  
+  .image-carousel::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-color);
+    border-radius: 4px;
+    border: 1px solid var(--scrollbar-track-color);
+  }
+  
+  .carousel-inner {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+  }
+  
+  .thumbnail {
+    min-width: 80px;
+    height: auto;
+    cursor: pointer;
+    border: 1px solid var(--dark-Green);
+    border-radius: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .image-carousel {
+      padding: 5px; 
+    }
+  
+    .carousel-inner {
+      gap: 5px; 
+      padding: 5px;
+    }
+  
+    .thumbnail {
+      min-width: 60px; 
+    }
+  }

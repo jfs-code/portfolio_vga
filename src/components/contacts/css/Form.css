@@ -1,0 +1,98 @@
+@import './../../Global.css';
+
+.contact-form {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    background: var(--nav-background);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--light-gray);    
+  }
+  
+  .form-control {
+    margin-bottom: 1em;
+  }
+  
+  .form-control label {
+    margin-bottom: .5em;
+    color: var(--pink);
+    display: block;
+  }
+
+  .form-title {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .form-title h1 {
+    font-size: 1.5em;
+    color: var(--pink); 
+    margin-bottom: 10px;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    width: 100%;
+    padding: 0.5em 0;
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px solid var(--pink);
+    background: transparent;
+    box-sizing: border-box;
+    outline: none;
+    color: var(--salmon); 
+  }
+
+  .form-control input:-webkit-autofill,
+  .form-control textarea:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0px 1000px var(--nav-background) inset;
+      box-shadow: 0 0 0px 1000px var(--nav-background) inset;
+      border-bottom: 1px solid var(--pink);
+  }
+
+  .form-control textarea {
+    height: 3em;
+    resize: none;
+  }
+
+  .form-control input:focus,
+  .form-control textarea:focus {
+    border-bottom: 2px solid var(--pink);
+  }
+  
+  .form-control .error {
+    color: red;
+    font-size: .875em;
+  }
+  
+  button {
+    padding: 0.7em 1em;
+    background-color: var(--nav-background);
+    color: var(--pink);
+    border: 1px solid var(--light-gray);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    color: var(--dark-Green);
+    background-color: var(--pink);
+  }
+
+  @media (max-width: 768px) {
+    .form-title h1 {
+      font-size: 1.2em;
+    }
+
+    .contact-form {
+      padding: 1em;
+      text-align: left;
+    }
+
+    .form-control label {
+      margin-left: 0;
+    }
+  }
