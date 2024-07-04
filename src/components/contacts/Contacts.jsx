@@ -3,9 +3,9 @@ import './css/Contacts.css';
 import Card from './Card';
 import Form from './Form';
 
-export function Contacts() {
+export function Contacts () {
   return (
-    <div className="container-contacts">
+    <div className="contact-main-container">
       <div className="contacts-container">
         <div className="contacts-card">          
           <Card />
@@ -14,10 +14,10 @@ export function Contacts() {
           <Form />
         </div>
       </div>
-    </div>
-    
+    </div>    
   );
 }
+
 
 
 

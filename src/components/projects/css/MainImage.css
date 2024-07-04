@@ -1,7 +1,8 @@
 @import './../../Global.css';
 
 .main-image {
-   width: 90%;
+   width: 100%;
+   max-width: 100%;
    margin-bottom: 10px;
 }
 
@@ -9,6 +10,11 @@
   width: 100%;
   height: auto;
   border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.main-image img:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {

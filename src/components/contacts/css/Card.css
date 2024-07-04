@@ -8,9 +8,9 @@
     background-color: var(--light-gray);
     border: 1px solid var(--light-gray);
     border-radius: 10px;
-    /* width: 400px; */
-    width: 400px; /* Ajusta el ancho para ocupar el 100% del contenedor padre */
-    max-width: 400px; 
+    width: 300px;
+    max-width: 300px; 
+    margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -20,7 +20,7 @@
     transition: transform 0.8s, box-shadow 0.8s;
 }
   
-.card-container h1{
+.card-container h2{
     color: var(--dark-Green);
     padding: 10px;
 }
@@ -59,9 +59,9 @@
     .card-container {
       padding: 2px 0;
       top: 0;
-      width: 140%; /* Ajusta el ancho para ocupar el 90% del contenedor padre en dispositivos pequeños */
-      max-width: none; /* Elimina el ancho máximo en dispositivos pequeños si es necesario */
-      margin: -20px 10px; /* Centra la tarjeta en dispositivos pequeños */
+      width: 280px; 
+      max-width: 280px;
+      margin: 0 auto;
     }
   }
 

@@ -140,10 +140,10 @@ const Form = () => {
     };
     
     return (
-      <div>
+      <div className="form-container">
         <div className="form-title">
             <h1>Contáctame</h1>
-      </div>
+        </div>
         <form className="contact-form" onSubmit={handleSubmit}>
             <div className="form-control">
                 <label htmlFor="fullName">Nombre completo</label>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './css/About.css';
 
 export function About() {
- 
+  // Ejemplo de datos dinámicos para los roles
   const [roles, setRoles] = useState([
     {
       icon: '/imgs/linkedin.png',
@@ -16,6 +16,7 @@ export function About() {
     },
   ]);
 
+  // Ejemplo de datos dinámicos para las redes sociales
   const [socialLinks, setSocialLinks] = useState([
     {
       icon: '/imgs/instagram.png',
@@ -35,15 +36,15 @@ export function About() {
   ]);
 
   return (
-    <div className="container-about">
-      <div className='about-container'>      
-        <div className="left-container-about">
+    <div className="about-main-container">
+      <div className="about-container">
+        <div className="about-left-container">
           <img src="/imgs/linkedin.png" alt="Foto de perfil" className="profile-picture" />
           <h2 className="name">Valeria Góngora Andrade</h2>
           <p className="email">v.gongoraandrade@gmail.com</p>
-          <a href="/valeriagongoraandrade.pdf" download className="cv-button">Descarga mi CV</a>
+          <a href="/JaimeFlorezSaldaña_es.pdf" download className="cv-button">Descarga mi CV</a>
         </div>
-        <div className="right-container-about">
+        <div className="about-right-container">
           <div className="right-top">
             <h3 className="about-me">SOBRE MÍ</h3>
             <h4 className="title-3">Abierto a trabajar</h4>
@@ -70,7 +71,7 @@ export function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div>      
     </div>
   );
 }

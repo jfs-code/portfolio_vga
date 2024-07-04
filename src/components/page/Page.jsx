@@ -7,13 +7,6 @@ import { Contacts } from './../contacts/Contacts';
 import { Footer } from './../footer/Footer';
 import "./css/Page.css";
 
-// const links = [
-//   { text: "Inicio", href: "#home" },
-//   { text: "Sobre mi", href: "#aboutme" },
-//   { text: "Portafolio", href: "#projects" },
-//   { text: "Contacto", href: "#contacts" }
-// ];
-
 export function Page() {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);

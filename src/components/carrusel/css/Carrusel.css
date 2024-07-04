@@ -19,7 +19,8 @@
   
   .Marquee {
     display: flex;
-    width: 1300px;
+    width: 1100px;
+    margin-left: 80px;
     overflow: hidden;
     user-select: none;
     mask-image: linear-gradient(
